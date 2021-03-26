@@ -1,0 +1,16 @@
+package Lista1;
+
+import java.util.Scanner;
+
+public class IdadeEmDias {
+
+	public static void main(String[] args) {
+		
+		int anos, meses, dias, totalDias;
+		
+		System.out.println("Quantos anos você tem? ");
+		anos = System.in(nextDouble);
+
+	}
+
+}
