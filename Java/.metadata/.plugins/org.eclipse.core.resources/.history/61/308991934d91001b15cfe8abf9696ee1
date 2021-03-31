@@ -1,0 +1,23 @@
+package expressoescomparativas;
+
+import java.util.Scanner;
+
+public class Enquanto {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int x, soma;
+		
+		System.out.println("Digite um número: ");
+		x = leia.nextInt();
+		
+		while (x != 0) {
+			System.out.println("Digite outro número: ");
+			x = leia.nextInt();
+		}
+
+	}
+
+}

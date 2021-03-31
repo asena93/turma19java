@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		String x;
+		
+		x = leia.next();
+		System.out.println("Você digitou o valor: " + x);
+
+	}
+
+}
