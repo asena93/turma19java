@@ -1,0 +1,38 @@
+package Exemplo;
+
+import java.util.Scanner;
+
+public class Auxilio {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		String nome, valor, auxilioAnterior;
+		
+		System.out.println("Digite seu nome: ");
+		nome = leia.next();
+		System.out.println("Se você é chefa de família, digite 1 se não, 2: ");
+		valor = leia.next();
+		System.out.println("Se você recebeu o auxílio anteriormente digite 1, se não, 2: ");
+		auxilioAnterior = leia.next();
+		
+		/*se(valor == "1") {
+			escreva("Auxilio de 1200 liberado")
+		}
+		senao se (valor == "2") {
+			escreva("Auxilio de 600 liberado")
+		}
+		senao
+		{
+			escreva("Não digitou nem 1 e nem 2, sem auxilio")
+		}*/
+		
+		if (valor == "1" && auxilioAnterior == "1") {
+			System.out.println("");
+		}
+		
+
+	}
+
+}
