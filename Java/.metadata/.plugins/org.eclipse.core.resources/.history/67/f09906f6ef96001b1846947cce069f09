@@ -1,0 +1,25 @@
+package lista3;
+
+import java.util.Scanner;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int impar=0, par=0;
+		
+		for (int n = 0; n <= 10; n++) {
+			if(n % 2 ==0 ) {
+				par++;
+				System.out.println("Quantidade de numero pares: " + par);
+			} else if(n % 2 != 0) {
+				impar++;
+				System.out.println("Quantidade de numeros ímpares: " + impar);
+			}
+		}
+
+	}
+
+}

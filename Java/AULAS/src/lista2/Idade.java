@@ -22,7 +22,5 @@ public class Idade {
 		} else {
 			System.out.println("Fora dos parâmetros.");
 		}
-
 	}
-
 }

@@ -1,0 +1,25 @@
+package Exemplo;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ExemploVetor {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner leia = new Scanner(System.in);
+		
+		String nomes[] = new String[4];
+		int notas[] new int[4]
+		
+		System.out.println("Digite o nome: ");
+		nomes[0] = leia.next();
+		
+		
+		for (int x = 0; x < nomes.length; x++) {
+			System.out.println(nomes[x]);
+		}
+	}
+
+}

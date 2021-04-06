@@ -1,0 +1,32 @@
+package lista3;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int idade;
+		char sexo, opcao;
+		int contador = 1;
+		
+		System.out.println("Se você deseja realizar a pesquisa, digite S para SIM e N, para Não.");
+		char continua = leia.next().toUpperCase().charAt(0);
+		
+		while(continua == 'S' && contador <= 150) {
+			System.out.print("Informe sua idade: ");
+			idade = leia.nextInt();
+			System.out.print("Digite 1 - Feminino / 2 - Masculino / 3 - Outros: ");
+			sexo = leia.next().charAt(0);
+			System.out.print("Digite:\n1 - Se pessoa calma: \n2- se pessoa nervosa: \n3 - Se pessoa agressiva: ");
+			opcao = leia.next().charAt(0);
+			System.out.print("Se você deseja realizar a pesquisa, digite S para SIM e N, para Não.");
+			continua = leia.next().toUpperCase().charAt(0);
+			contador++;
+		}
+		System.out.println("Fim do programa!");
+	}
+
+}

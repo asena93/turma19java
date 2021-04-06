@@ -1,0 +1,17 @@
+package Exemplo;
+
+import java.util.Scanner;
+
+public class ExemploMatrizQuadrada {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int matrizQ[][] = new int[3][3];
+		
+		System.out.println(matrizQ);
+
+	}
+
+}

@@ -1,0 +1,37 @@
+package Exemplo;
+
+import java.util.Scanner;
+
+public class ExemploPara {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		final double HABITANTES = 20;
+		double totalPessoasAte100 = 0;
+		double numeroFilhos = 0;
+		double salario = 0.00;
+		double mediaSalarios = 0.00;
+		double totalSalarios = 0.00;
+		double mediaNumeroFilhos = 0.00;
+		double totalNumeroFilhos = 0.00;
+		double maiorSalario = 0.00;
+		double percentualPessoasSalarioAte100 = 0.00;
+		
+		for (int x = 1; x <= HABITANTES; x++) {
+			System.out.println("Informe o salário do Habitante " + x + ": R$");
+			salario = leia.nextDouble();
+			System.out.println("Informe a quantidade de filhos: ");
+			numeroFilhos = leia.nextDouble();
+			System.out.println();
+			totalSalarios += totalSalarios + salario;
+			
+		}
+		mediaSalarios = totalSalarios / HABITANTES;
+		System.out.printf("\nTotal dos salarios: R$ %f", totalSalarios);
+		System.out.printf("\nMédia salarios: R$ %f", mediaSalarios);
+
+	}
+
+}

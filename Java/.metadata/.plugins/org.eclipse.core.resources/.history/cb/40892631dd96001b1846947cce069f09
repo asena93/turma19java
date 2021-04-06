@@ -1,0 +1,22 @@
+package Exemplo;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ExemploVetor {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner leia = new Scanner(System.in);
+		
+		String nomes[] = new String[3];
+		
+		nomes[0] = "Alessandro";
+		nomes[1] = "Ida";
+		nomes[2] = "Nete";
+		
+		System.out.println(nomes);
+	}
+
+}
