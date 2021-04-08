@@ -1,0 +1,32 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Conta;
+
+public class TesteConta {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner leia = new Scanner(System.in);
+		
+		Conta contaPoupança = new Conta();
+		
+		System.out.println("Digite o numero da conta: ");
+		contaPoupança.numero = leia.nextInt();
+		System.out.println("Digite o CPF: ");
+		contaPoupança.cpf = leia.next();
+		
+		contaPoupança.saldo = 1762.52;
+		
+		System.out.printf("CPF do cliente: %s", contaPoupança.cpf);
+		System.out.printf("Numero da conta: %d", contaPoupança.numero);
+		System.out.printf("CPF do cliente: %.2f", contaPoupança.saldo);
+		
+		
+
+	}
+
+}

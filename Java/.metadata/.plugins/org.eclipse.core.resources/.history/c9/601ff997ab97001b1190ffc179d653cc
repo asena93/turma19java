@@ -1,0 +1,17 @@
+package classes;
+
+public class Pessoa {
+	
+	public String nome;
+	public String genero;
+	public int anoNascimento;
+	
+	public int calcularIdade() {
+		return 2021 - anoNascimento;
+	}
+	
+	public int calcularIdade(int anoAtual) {
+		return anoAtual - anoNascimento;
+	}
+
+}

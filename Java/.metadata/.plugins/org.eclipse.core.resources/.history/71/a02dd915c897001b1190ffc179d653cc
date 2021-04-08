@@ -1,0 +1,11 @@
+package exemplosPoo;
+
+public class MetodoSobrecarregado {
+	
+	public void testaMetodosSobrecarregados() {
+		
+		System.out.printf("Salário em número inteiro: %d \n", salario(1000));
+		
+	}
+
+}

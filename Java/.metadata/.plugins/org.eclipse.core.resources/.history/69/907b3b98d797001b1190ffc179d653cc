@@ -1,0 +1,22 @@
+package entities;
+
+public class Conta {
+	
+	public int numero;
+	public String cpf;
+	public double saldo;
+	public boolean ativa;
+	
+	public Conta(int numero, String cpf) {
+		this.numero = numero;
+		this.cpf = cpf
+	}
+	
+	public void debito(double valor) {
+		saldo -= valor;
+	}
+	
+	public void credito(double valor) {
+		saldo += valor;
+	}
+}

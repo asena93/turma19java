@@ -1,0 +1,17 @@
+package entities;
+
+public class Conta {
+	
+	public int numero;
+	public String cpf;
+	public double saldo;
+	public boolean ativa;
+	
+	public void debito() {
+		System.out.println("Valor debitado");
+	}
+	
+	public void credito() {
+		System.out.println("Debito");
+	}
+}

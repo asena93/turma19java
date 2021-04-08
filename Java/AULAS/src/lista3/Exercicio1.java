@@ -13,7 +13,6 @@ public class Exercicio1 {
 				System.out.println("Numero: " + x);
 			}
 		}
-
 	}
 
 }
