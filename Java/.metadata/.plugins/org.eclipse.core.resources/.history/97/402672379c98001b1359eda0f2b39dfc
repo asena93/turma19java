@@ -1,0 +1,33 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Estudante;
+
+public class CadEstudante {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner leia = new Scanner(System.in);
+		
+		Estudante estudante1 = new Estudante(1001, "40167675800");
+		
+		//menu
+		System.out.println("[NOME DA ESCOLA] - ");	
+		System.out.println("[SLOGAN] - ");
+					
+				1 - BÁSICO	
+				2 - MÉDIO	
+				3 - GRADUAÇÃO	
+				4 - PÓS	
+				5 - MESTRADO	
+				6 - SAIR	
+					
+				DIGITE O CODIGO DA OPÇÃO SELECIONADA: _	
+		
+
+	}
+
+}

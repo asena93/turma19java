@@ -27,9 +27,9 @@ public class Estudante {
 	public double getPontos() {
 		return pontos;
 	}
-	public void setPontos(double pontos) {
+	/*public void setPontos(double pontos) {
 		this.pontos = pontos;
-	}
+	}*/
 	public boolean isStatus() {
 		return status;
 	}
@@ -37,12 +37,12 @@ public class Estudante {
 		this.status = status;
 	}
 	
-	public void adicionarNota(double notas) {
-		this.pontos += notas;
+	public void adicionarNota(double valorPonto) {
+		this.pontos += valorPonto;
 	}
 	
-	public void tirarNota(double notas) {
-		this.pontos -= notas;
+	public void tirarNota(double valorPonto) {
+		this.pontos -= valorPonto;
 	}
 
 }

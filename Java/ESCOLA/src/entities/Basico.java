@@ -17,10 +17,9 @@ public class Basico extends Estudante {
 		this.diaAniversario = diaAniversario;
 	}
 
-	public void bonusAniversario(int bonus) {
-		int diaAtual = 0;
+	public void bonusAniversario(int diaAtual) {
 		if(diaAniversario == diaAtual) {
-			bonus *= 0.01;
+			super.adicionarNota(super.getPontos()*0.10);
 		}
 
 	}
