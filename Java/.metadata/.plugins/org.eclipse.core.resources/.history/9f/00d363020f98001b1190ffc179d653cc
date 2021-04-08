@@ -1,0 +1,16 @@
+package lista4Classes;
+
+public class Aviao {
+	
+	public String marca;
+	public String tipo;
+	public String ciaArea;
+	public int anoFabricacao, qntdMotores;
+	
+	public String tipoVoo() {
+		
+	}
+	
+	
+
+}
