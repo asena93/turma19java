@@ -24,7 +24,7 @@ public class ClasseCliente {
 		cliente1.formaDePagamento = leia.next().charAt(0);
 
 
-		System.out.printf("Dados do Cliente:\n%s \n%s \n%d \n%s \n%c", cliente1.nome, cliente1.cpf, cliente1.idade, cliente1.email, cliente1.pagamento());
+		System.out.printf("Dados do Cliente:\n%s \n%s \n%d \n%s \n%s", cliente1.nome, cliente1.cpf, cliente1.idade, cliente1.email, cliente1.pagamento());
 
 	}
 

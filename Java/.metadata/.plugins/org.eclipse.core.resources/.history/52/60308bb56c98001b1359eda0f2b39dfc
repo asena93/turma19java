@@ -1,0 +1,11 @@
+package entities;
+
+public class Produto {
+	
+	private String codigo;
+	public String descricao;
+	public double valorUnitario;
+	private int qtdeEstoque;
+
+}
+
